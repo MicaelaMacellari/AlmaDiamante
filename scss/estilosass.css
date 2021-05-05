@@ -1,0 +1,285 @@
+.bodyRopa, .bodyContacto {
+  background-color: #f8e5e9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.headerRopa {
+  height: 25%;
+}
+
+.headerRopa__HomeLogo, .headerContacto__HomeLogo {
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.headerRopa__h1, .headerContacto__h1 {
+  display: inline-block;
+  color: tomato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 0;
+}
+
+.headerRopa__h3, .headerContacto__h3 {
+  color: blue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin-top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.headerRopa__HomeLink, .headerContacto__HomeLink {
+  display: block;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.sectionRopa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #faf2e2;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.sectionRopa__HijoUno {
+  height: 30%;
+  width: 30%;
+  margin: 50px;
+}
+
+.sectionRopa__HijoUno__imagen {
+  text-align: center;
+  margin: 50px;
+  height: 500px;
+  max-width: 100%;
+}
+
+.sectionRopa__HijoDos {
+  height: 70%;
+  width: 70%;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+
+.sectionRopa__Tabla {
+  color: purple;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  line-height: normal;
+}
+
+.sectionRopa__Tabla__item {
+  color: green;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.footerRopa, .footerContacto {
+  margin: 0px;
+  text-align: center;
+  height: 100px;
+  border: 0;
+  padding-top: 20px;
+}
+
+.bodyAccesorios {
+  background-color: #f8e5e9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.headerAccesorios {
+  height: 25%;
+}
+
+.headerAccesorios__HomeLogo {
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.headerAccesorios__h1 {
+  display: inline-block;
+  color: tomato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 0;
+}
+
+.headerAccesorios__h3 {
+  color: blue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin-top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.headerAccesorios__HomeLink {
+  display: block;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.sectionAccesorios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #faf2e2;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0%;
+}
+
+.sectionAccesorios__HijoUno__imagen {
+  height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionAccesorios__HijoDos {
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 30px;
+  color: purple;
+  font-style: normal;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  line-height: normal;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionAccesorios__HijoDos__titulo {
+  color: purple;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.sectionAccesorios__HijoDos__Item {
+  color: green;
+  font-size: 15px;
+}
+
+.footerAccesorios {
+  margin: 0px;
+  text-align: center;
+  height: 100px;
+  border: 0;
+  padding-top: 20px;
+}
+
+.headerContacto__h3 {
+  margin-left: -200px;
+}
+
+.headerContacto__HomeLink {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.formularioContacto {
+  background-color: #faf2e2;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.footerContacto {
+  padding-top: 20px;
+}
+/*# sourceMappingURL=estilosass.css.map */

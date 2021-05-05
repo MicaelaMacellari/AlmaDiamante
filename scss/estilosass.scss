@@ -1,0 +1,287 @@
+@mixin colorSection ($paddingTop, $paddingBottom, $paddingLeft, $paddingRight){
+    background-color:rgb(250, 242, 226);
+    padding-top: $paddingTop;
+    padding-bottom: $paddingBottom;
+    padding-left: $paddingLeft;
+    padding-right: $paddingRight;
+}
+
+.bodyRopa{
+    background-color:rgb(248, 229, 233);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0; 
+}
+
+.headerRopa{
+    height: 25%;
+
+    &__HomeLogo{
+        display: inline-block;
+        margin-left: 200px;
+        margin-right: 50px;
+        margin-top: 5px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__h1{
+        display: inline-block;
+        color: tomato;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 0;
+    }
+
+    &__h3{
+        color:blue;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        margin-top: 0;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__HomeLink{
+        display:block ;
+        background-color: white;
+        padding-left: 40px;
+    }
+
+}
+
+.sectionRopa{
+    display: flex;
+    background-color:rgb(250, 242, 226);
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+
+    &__HijoUno{
+        height: 30%;
+        width: 30%;
+        margin: 50px;
+
+        &__imagen{
+            text-align: center;
+            margin: 50px;
+            height: 500px;
+            max-width: 100%;
+        }
+    }
+
+    &__HijoDos{
+        height: 70%;
+        width: 70%;
+        text-align: center;
+        margin-top: 150px;
+        margin-right: 50px;
+    }
+
+    &__Tabla{
+        color:purple;
+        font-style:normal;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        line-height: normal;
+
+        &__item{
+            color: green;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+
+}
+
+.footerRopa{
+    margin:0px;
+    text-align: center;
+    height: 100px;
+    border: 0;
+    padding-top: 20px;
+}
+
+// FIN SCSS ROPA
+
+// INICIO SCSS ACCESORIOS
+
+.bodyAccesorios{
+    background-color:rgb(248, 229, 233);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;  
+}
+
+.headerAccesorios{
+    height: 25%;
+
+    &__HomeLogo{
+        display: inline-block;
+        margin-left: 200px;
+        margin-right: 50px;
+        margin-top: 5px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__h1{
+        display: inline-block;
+        color: tomato;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 0;
+    }
+
+    &__h3{
+        color:blue;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        margin-top: 0;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__HomeLink{
+        display:block ;
+        background-color: white;
+        padding-left: 40px;
+    }
+}
+
+.sectionAccesorios{
+    display: flex;
+    background-color:rgb(250, 242, 226);
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0%;
+
+    &__HijoUno{
+        // width: 30%;
+        // margin-left: 50px;
+
+        &__imagen{
+            // margin: 50px;
+            height: 500px;
+            justify-content: center;
+        }
+    }
+
+    &__HijoDos{
+        // width: 70%;
+        text-align: center;
+        margin-top: 150px;
+        margin-right: 30px;
+        color:purple;
+        font-style:normal;
+        font-size: 25px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        line-height: normal;
+        justify-content: center;
+
+        &__titulo{
+            color:purple;
+            font-style:normal;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            line-height: normal;
+            text-decoration: none;
+            }
+
+            &__Item{
+                color: green;
+                font-size: 15px;
+            }
+    }
+}
+
+.footerAccesorios{
+    margin:0px;
+    text-align: center;
+    height: 100px;
+    border: 0;
+    padding-top: 20px;
+}
+
+// FIN SCSS ACCESORIOS
+
+// INICIO SCSS CONTACTO
+
+.bodyContacto{
+    @extend .bodyRopa;
+}
+
+.headerContacto{
+
+    &__HomeLogo{
+        @extend .headerRopa__HomeLogo;
+    }
+
+    &__h1{
+        @extend .headerRopa__h1;
+    }
+
+    &__h3{
+        @extend .headerRopa__h3;
+        margin-left: -200px;
+        
+    }
+
+    &__HomeLink{
+        @extend .headerRopa__HomeLink;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+
+.formularioContacto{
+    @include colorSection (5px, 5px, 50px, 100px);
+}
+
+.footerContacto{
+    @extend .footerRopa;
+    padding-top: 20px;
+}
+
+// FIN SCSS CONTACTO

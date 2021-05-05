@@ -1,0 +1,265 @@
+body{
+    background-color:rgb(248, 229, 233);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1{
+    color: tomato;
+    font-style:normal;
+    font-weight:bold;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+
+h3{
+    color:blue;
+    font-style:normal;
+    font-weight:bold;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+#inicio{
+    color:rebeccapurple;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.parrafoVerde{
+    color:green;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    text-transform:none;
+    line-height: normal;
+    text-decoration: none;
+}
+
+section{
+    color:rebeccapurple;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+p{
+    font-style:normal;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    text-transform:none;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+ul{
+    color:purple;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    list-style-type:lower-greek;
+    margin: 100%;
+    padding: 0;
+}
+
+li{
+    color:purple;
+    display: inline-block;
+    width: 18%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+}
+    
+ul ul li{
+    display: block;
+    width: 100%;
+}
+
+ul li:hover ul{
+    display: block;
+    width: 100%;
+}
+
+li:hover{
+    background-color: white;
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Playfair Display', serif;
+}
+
+img:hover{
+    background:blue;
+    opacity: 0.7;
+}
+
+video:hover{
+    background:lightpink;
+    opacity: 0.7;
+}
+
+footer{
+    margin:0px;
+    text-align: center;
+    height: 100px;
+    border: 0;
+}
+
+/* Estilos con Flexbox: Sección Accesorios y Ropa */
+
+.aHome{
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+@media only screen and ( max-width:768px){
+    .aHome{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+}
+.h1Accesorios{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+.h3Accesorios{
+    margin-top: 0;
+    justify-content: center;
+    align-content: center;
+}
+
+.headerAccesorios{
+    height: 25%;
+}
+
+.irHomeAccesorios{
+    display:block ;
+    background-color: white;
+    padding-left: 40px;
+}
+section{
+    height: 60%;
+}
+
+.cajaFlexible{
+    display: flex;
+    background-color:rgb(250, 242, 226);
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.hijoUno{
+    height: 30%;
+    width: 30%;
+    margin: 50px;
+}
+
+.hijoDos{
+    height: 70%;
+    width: 70%;
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.footer{
+    height: 15%;
+    margin: 50px;
+    padding-top: 20px;
+}
+
+.tablaRopa{
+    color:purple;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    line-height: normal;
+}
+
+th{
+    color: green;
+}
+
+/* Estilos con Grid: Sección Maquillaje y Cosméticos*/
+
+#bodyMaquillajeYCosmeticos{
+    background-color:rgb(248, 229, 233);
+
+}
+
+/* #cajaMaquillajeYCosmeticos{
+    /* display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 30vh 5vh 45vh 20vh;
+    grid-template-areas:
+                        "header  header  header"
+                        "menu    menu    menu"
+                        "section section aside"
+                        "footer  footer  footer"; 
+} */
+
+#headerMaquillajeYCosmeticos{
+    background-color: none;
+}
+
+#navMaquillajeYCosmeticos{
+    background-color: white;
+}
+
+
+#footerMaquillajeYCosmeticos{
+    margin:0px;
+    text-align: center;
+    height: 100px;
+    border: 0;
+    padding-top: 20px;
+} 
+
