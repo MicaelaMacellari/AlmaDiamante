@@ -109,10 +109,8 @@
         margin-bottom: 0;
     }
 }
-
-
-
 // FIN SCSS INDEX
+
 
 // INICIO SCSS ROPA
 .bodyRopa{
@@ -229,11 +227,10 @@
     border: 0;
     padding-top: 20px;
 }
-
 // FIN SCSS ROPA
 
-// INICIO SCSS ACCESORIOS
 
+// INICIO SCSS ACCESORIOS
 .bodyAccesorios{
     background-color:rgb(248, 229, 233);
     background-repeat:no-repeat;
@@ -351,11 +348,52 @@
     border: 0;
     padding-top: 20px;
 }
-
 // FIN SCSS ACCESORIOS
 
-// INICIO SCSS CONTACTO
 
+// INICIO SCSS MAQUILLAJES Y COSMÉTICOS
+.bodyMyC{
+    background-color:rgb(248, 229, 233);
+}
+
+.headerMyC{
+    background-color: none;
+
+    &__HomeLogo{
+        display: inline-block;
+        margin-left: 200px;
+        margin-right: 50px;
+        margin-top: 5px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__h1{
+        @extend .headerAccesorios__h1
+    }
+}
+
+.navMyC{
+    background-color: white;
+}
+
+.footerMyC{
+    margin:0px;
+    text-align: center;
+    height: 100px;
+    border: 0;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+// FIN SCSS MAQUILLAJES Y COSMÉTICOS
+
+
+// INICIO SCSS CONTACTO
 .bodyContacto{
     @extend .bodyRopa;
 }
@@ -395,5 +433,4 @@
     @extend .footerRopa;
     padding-top: 20px;
 }
-
 // FIN SCSS CONTACTO

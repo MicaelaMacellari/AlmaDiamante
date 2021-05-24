@@ -263,7 +263,7 @@
       align-content: center;
 }
 
-.headerAccesorios__h1 {
+.headerAccesorios__h1, .headerMyC__h1 {
   display: inline-block;
   color: tomato;
   font-style: normal;
@@ -366,6 +366,38 @@
 }
 
 .footerAccesorios {
+  margin: 0px;
+  text-align: center;
+  height: 100px;
+  border: 0;
+  padding-top: 20px;
+}
+
+.bodyMyC {
+  background-color: #f8e5e9;
+}
+
+.headerMyC {
+  background-color: none;
+}
+
+.headerMyC__HomeLogo {
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.navMyC {
+  background-color: white;
+}
+
+.footerMyC {
   margin: 0px;
   text-align: center;
   height: 100px;
