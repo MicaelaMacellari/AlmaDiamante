@@ -1,11 +1,120 @@
-@mixin colorSection ($paddingTop, $paddingBottom, $paddingLeft, $paddingRight){
-    background-color:rgb(250, 242, 226);
-    padding-top: $paddingTop;
-    padding-bottom: $paddingBottom;
-    padding-left: $paddingLeft;
-    padding-right: $paddingRight;
+// INICIO SCSS INDEX
+.bodyIndex{
+    background-image: url("bodyIndex.jpg");
+    /* background-color:rgb(248, 229, 233); */
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    border: 0;
 }
 
+.headerIndex{
+
+    &__logo{
+        display: inline-block;
+        margin-left: 200px;
+        margin-right: 50px;
+        margin-top: 5px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__h1{
+        color: tomato;
+        display: inline-block;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 0;
+    }
+
+    &__h3{
+        color:purple;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        margin-top: 0;
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+    }
+
+    &__Menu{
+        /* justify-content: center; */
+        margin-left: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.sectionIndex{
+
+    &__h3{
+        @extend .headerIndex__h3;
+    }
+
+    &__Parrafo{
+        color:green;
+        font-style:normal;
+        font-weight: normal;
+        font-size: 15px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-transform:none;
+        line-height: normal;
+        text-decoration: none;
+        margin:30px;
+    }
+
+    &__Imagen{
+        height: 500px;
+        margin-left: 300px;
+        display: flex;
+    }
+}
+
+.footerIndex{
+    margin:0px;
+    text-align: center;
+    height: 100px;
+    border: 0;
+    color: purple;
+    padding-top: 20px;
+}
+
+@media only screen and ( max-width:768px){
+    #logoIndex{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    
+    #menuIndex{
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+
+// FIN SCSS INDEX
+
+// INICIO SCSS ROPA
 .bodyRopa{
     background-color:rgb(248, 229, 233);
     background-repeat:no-repeat;
@@ -276,7 +385,10 @@
 
 
 .formularioContacto{
-    @include colorSection (5px, 5px, 50px, 100px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
 .footerContacto{

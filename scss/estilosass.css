@@ -1,3 +1,114 @@
+.bodyIndex {
+  background-image: url("bodyIndex.jpg");
+  /* background-color:rgb(248, 229, 233); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  border: 0;
+}
+
+.headerIndex__logo {
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.headerIndex__h1 {
+  color: tomato;
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 0;
+}
+
+.headerIndex__h3, .sectionIndex__h3 {
+  color: purple;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin-top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 10px;
+}
+
+.headerIndex__Menu {
+  /* justify-content: center; */
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sectionIndex__Parrafo {
+  color: green;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  margin: 30px;
+}
+
+.sectionIndex__Imagen {
+  height: 500px;
+  margin-left: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerIndex {
+  margin: 0px;
+  text-align: center;
+  height: 100px;
+  border: 0;
+  color: purple;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #logoIndex {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  #menuIndex {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 .bodyRopa, .bodyContacto {
   background-color: #f8e5e9;
   background-repeat: no-repeat;
@@ -272,7 +383,6 @@
 }
 
 .formularioContacto {
-  background-color: #faf2e2;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 50px;
