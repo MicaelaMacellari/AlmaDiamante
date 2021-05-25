@@ -1,6 +1,17 @@
 // INICIO SCSS INDEX
+#grilla {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30vh 5vh 45vh 20vh;
+    grid-template-areas:
+                        "header"
+                        "nav"
+                        "section"
+                        "footer  footer  footer";       
+}
+
 .bodyIndex{
-    background-image: url("bodyIndex.jpg");
+    background-image: url("bodyIndex-Sin_Marca_De_Agua.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     margin: 0;
@@ -94,6 +105,11 @@
     //     margin-top: 50px;
     //     margin-bottom: 50px;
     // }
+}
+
+.carousel-inner{
+    height: 50%;
+    max-width: 100%;
 }
 
 .sectionIndex{

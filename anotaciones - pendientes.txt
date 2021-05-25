@@ -1,0 +1,2 @@
+-El nav del index no es responsive
+-El carrousel del index se sigue desplazando, en cuanto al ancho, cuando cambia la img

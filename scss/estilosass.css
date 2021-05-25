@@ -1,5 +1,15 @@
+#grilla {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 30vh 5vh 45vh 20vh;
+      grid-template-rows: 30vh 5vh 45vh 20vh;
+      grid-template-areas: "header" "nav" "section" "footer  footer  footer";
+}
+
 .bodyIndex {
-  background-image: url("bodyIndex.jpg");
+  background-image: url("bodyIndex-Sin_Marca_De_Agua.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -95,6 +105,11 @@
 .navIndex__Menu__ul__li:hover {
   background-color: black;
   color: white;
+}
+
+.carousel-inner {
+  height: 50%;
+  max-width: 100%;
 }
 
 .sectionIndex {
