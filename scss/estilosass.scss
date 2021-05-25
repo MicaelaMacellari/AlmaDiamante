@@ -11,7 +11,7 @@
 }
 
 .bodyIndex{
-    background-image: url("bodyIndex-Sin_Marca_De_Agua.jpg");
+    background-image: url("indexBody.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     margin: 0;
@@ -111,13 +111,13 @@
     }
 }
 
+
+
 .sectionIndex{
     background-color:rgb(250, 242, 226);
+    padding: 20px;
 
-    .carousel-inner{
-        height: 50%;
-        max-width: 100%;
-    }
+
 
     &__h3{
         @extend .headerIndex__h3;
@@ -141,6 +141,11 @@
         margin-left: 300px;
         display: flex;
     }
+}
+
+// Letra Carrousel
+h5{
+    color: black
 }
 
 .footerIndex{
@@ -186,7 +191,9 @@
     background-color:rgb(248, 229, 233);
     background-repeat:no-repeat;
     background-size: cover;
-    margin: 0; 
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .headerRopa{
@@ -248,50 +255,7 @@
 }
 
 .sectionRopa{
-    display: flex;
     background-color:rgb(250, 242, 226);
-    flex-direction:row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-
-    &__HijoUno{
-        height: 30%;
-        width: 30%;
-        margin: 50px;
-
-        &__imagen{
-            text-align: center;
-            margin: 50px;
-            height: 500px;
-            max-width: 100%;
-        }
-    }
-
-    &__HijoDos{
-        height: 70%;
-        width: 70%;
-        text-align: center;
-        margin-top: 150px;
-        margin-right: 50px;
-    }
-
-    &__Tabla{
-        color:purple;
-        font-style:normal;
-        font-weight: bold;
-        font-size: 25px;
-        font-family: 'Playfair Display', serif;
-        text-align: center;
-        line-height: normal;
-
-        &__item{
-            color: green;
-            font-weight: bold;
-            font-size: 15px;
-        }
-    }
-
 }
 
 @media (max-width:768px) and (min-width:480px){
@@ -305,6 +269,7 @@
         padding-left: 100px;
         display: flex;
     }
+}
 
 .footerRopa{
     margin:0px;
@@ -340,7 +305,7 @@
 
     &__h1{
         display: inline-block;
-        color: tomato;
+        color: black;
         padding-left: 200px;
         font-style:normal;
         font-weight:bold;

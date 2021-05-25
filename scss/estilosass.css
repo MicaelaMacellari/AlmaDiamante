@@ -3,13 +3,13 @@
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: 30vh 5vh 45vh 20vh;
-      grid-template-rows: 30vh 5vh 45vh 20vh;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
       grid-template-areas: "header" "nav" "section" "footer";
 }
 
 .bodyIndex {
-  background-image: url("bodyIndex-Sin_Marca_De_Agua.jpg");
+  background-image: url("indexBody.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -115,11 +115,7 @@
 
 .sectionIndex {
   background-color: #faf2e2;
-}
-
-.sectionIndex .carousel-inner {
-  height: 50%;
-  max-width: 100%;
+  padding: 20px;
 }
 
 .sectionIndex__Parrafo {
@@ -141,6 +137,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+h5 {
+  color: black;
 }
 
 .footerIndex {
@@ -180,6 +180,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .headerRopa {
@@ -191,7 +193,7 @@
 
 .headerRopa__HomeLogo, .headerContacto__HomeLogo {
   display: inline-block;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-right: 50px;
   margin-top: 5px;
   -webkit-box-pack: center;
@@ -203,7 +205,7 @@
 
 .headerRopa__h1, .headerContacto__h1 {
   display: inline-block;
-  color: tomato;
+  color: black;
   padding-left: 200px;
   font-style: normal;
   font-weight: bold;
@@ -248,58 +250,22 @@
 }
 
 .sectionRopa {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background-color: #faf2e2;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
-.sectionRopa__HijoUno {
-  height: 30%;
-  width: 30%;
-  margin: 50px;
-}
-
-.sectionRopa__HijoUno__imagen {
-  text-align: center;
-  margin: 50px;
-  height: 500px;
-  max-width: 100%;
-}
-
-.sectionRopa__HijoDos {
-  height: 70%;
-  width: 70%;
-  text-align: center;
-  margin-top: 150px;
-  margin-right: 50px;
-}
-
-.sectionRopa__Tabla {
-  color: purple;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-  line-height: normal;
-}
-
-.sectionRopa__Tabla__item {
-  color: green;
-  font-weight: bold;
-  font-size: 15px;
+@media (max-width: 768px) and (min-width: 480px) {
+  .headerRopa__HomeLogo, .headerContacto__HomeLogo {
+    margin-left: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .headerRopa__h1, .headerContacto__h1 {
+    padding-left: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .footerRopa, .footerContacto {
@@ -335,7 +301,7 @@
 
 .headerAccesorios__h1, .headerMyC__h1 {
   display: inline-block;
-  color: tomato;
+  color: black;
   padding-left: 200px;
   font-style: normal;
   font-weight: bold;
