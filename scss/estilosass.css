@@ -102,18 +102,23 @@
   text-align: center;
 }
 
+.navIndex__Menu__ul__li a {
+  color: purple;
+  text-decoration: none;
+}
+
 .navIndex__Menu__ul__li:hover {
   background-color: black;
   color: white;
 }
 
-.carousel-inner {
-  height: 50%;
-  max-width: 100%;
-}
-
 .sectionIndex {
   background-color: #faf2e2;
+}
+
+.sectionIndex .carousel-inner {
+  height: 50%;
+  max-width: 100%;
 }
 
 .sectionIndex__Parrafo {

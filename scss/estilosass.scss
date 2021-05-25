@@ -7,7 +7,7 @@
                         "header"
                         "nav"
                         "section"
-                        "footer  footer  footer";       
+                        "footer";       
 }
 
 .bodyIndex{
@@ -83,6 +83,7 @@
             padding: 0%;
 
             &__li{
+                background-color: white;
                 color:purple;
                 display: inline-block;
                 width: 18%;
@@ -90,6 +91,12 @@
                 position: relative;
                 text-align: center;
                 // padding-top: 5px;
+
+                a{
+                    background-color: white;
+                    color:purple;
+                    text-decoration: none;
+                }
             }
         
             &__li:hover{
@@ -98,22 +105,15 @@
             }
         }
     }
-    
-    // &__Menu{
-    //     justify-content: center;
-    //     margin-left: 200px;
-    //     margin-top: 50px;
-    //     margin-bottom: 50px;
-    // }
-}
-
-.carousel-inner{
-    height: 50%;
-    max-width: 100%;
 }
 
 .sectionIndex{
     background-color:rgb(250, 242, 226);
+
+    .carousel-inner{
+        height: 50%;
+        max-width: 100%;
+    }
 
     &__h3{
         @extend .headerIndex__h3;
@@ -157,11 +157,21 @@
     }
     
     .navIndex{
-        display: flex;
         max-width: 100%;
         margin-left: 0;
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    #grilla {
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20vh 20vh 40vh 20vh;
+        grid-template-areas:
+                            "header"
+                            "nav"
+                            "section"
+                            "footer";       
     }
 }
 // FIN SCSS INDEX
