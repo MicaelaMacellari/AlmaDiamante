@@ -5,7 +5,7 @@
       grid-template-columns: 100%;
   -ms-grid-rows: 30vh 5vh 45vh 20vh;
       grid-template-rows: 30vh 5vh 45vh 20vh;
-      grid-template-areas: "header" "nav" "section" "footer  footer  footer";
+      grid-template-areas: "header" "nav" "section" "footer";
 }
 
 .bodyIndex {
@@ -103,6 +103,7 @@
 }
 
 .navIndex__Menu__ul__li a {
+  background-color: white;
   color: purple;
   text-decoration: none;
 }
@@ -158,13 +159,19 @@
     margin-top: 0;
   }
   .navIndex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     max-width: 100%;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 20vh 20vh 40vh 20vh;
+        grid-template-rows: 20vh 20vh 40vh 20vh;
+        grid-template-areas: "header" "nav" "section" "footer";
   }
 }
 
@@ -176,7 +183,10 @@
 }
 
 .headerRopa {
-  height: 25%;
+  height: 30%;
+  background-image: url(ropaHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .headerRopa__HomeLogo, .headerContacto__HomeLogo {
@@ -194,6 +204,7 @@
 .headerRopa__h1, .headerContacto__h1 {
   display: inline-block;
   color: tomato;
+  padding-left: 200px;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -325,6 +336,7 @@
 .headerAccesorios__h1, .headerMyC__h1 {
   display: inline-block;
   color: tomato;
+  padding-left: 200px;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;

@@ -2,7 +2,7 @@
 #grilla {
     display:grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30vh 5vh 45vh 20vh;
+    grid-template-rows: repeat(4, auto);
     grid-template-areas:
                         "header"
                         "nav"
@@ -83,7 +83,6 @@
             padding: 0%;
 
             &__li{
-                background-color: white;
                 color:purple;
                 display: inline-block;
                 width: 18%;
@@ -91,6 +90,11 @@
                 position: relative;
                 text-align: center;
                 // padding-top: 5px;
+
+                // &__now{
+                //     background-color: white;
+                //     color:gray;
+                // }
 
                 a{
                     background-color: white;
@@ -186,11 +190,15 @@
 }
 
 .headerRopa{
-    height: 25%;
+    height: 30%;
+    background-image: url(ropaHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 
     &__HomeLogo{
         display: inline-block;
-        margin-left: 200px;
+        margin-left: 100px;
         margin-right: 50px;
         margin-top: 5px;
         justify-content: center;
@@ -199,7 +207,8 @@
 
     &__h1{
         display: inline-block;
-        color: tomato;
+        color: black;
+        padding-left: 200px;
         font-style:normal;
         font-weight:bold;
         font-size: 40px;
@@ -285,6 +294,18 @@
 
 }
 
+@media only (max-width:768px) and (min-width:480px){
+
+    .headerRopa__HomeLogo{
+        margin-left: 100px;
+        display: flex;
+    }
+    
+    .headerRopa__h1{
+        padding-left: 100px;
+        display: flex;
+    }
+
 .footerRopa{
     margin:0px;
     text-align: center;
@@ -292,6 +313,8 @@
     border: 0;
     padding-top: 20px;
 }
+
+
 // FIN SCSS ROPA
 
 
@@ -318,6 +341,7 @@
     &__h1{
         display: inline-block;
         color: tomato;
+        padding-left: 200px;
         font-style:normal;
         font-weight:bold;
         font-size: 40px;
