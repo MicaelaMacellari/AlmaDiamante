@@ -1,6 +1,5 @@
 .bodyIndex {
   background-image: url("bodyIndex.jpg");
-  /* background-color:rgb(248, 229, 233); */
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -37,6 +36,9 @@
   -ms-flex-line-pack: center;
       align-content: center;
   margin-bottom: 0;
+  margin: 10px;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 
 .headerIndex__h3, .sectionIndex__h3 {
@@ -56,14 +58,47 @@
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin-top: 10px;
 }
 
-.headerIndex__Menu {
-  /* justify-content: center; */
-  margin-left: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.navIndex {
+  background-color: white;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.navIndex__Menu {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.navIndex__Menu__ul {
+  list-style-type: lower-greek;
+  margin: 30;
+  padding: 0%;
+}
+
+.navIndex__Menu__ul__li {
+  color: purple;
+  display: inline-block;
+  width: 18%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.navIndex__Menu__ul__li:hover {
+  background-color: black;
+  color: white;
+}
+
+.sectionIndex {
+  background-color: #faf2e2;
 }
 
 .sectionIndex__Parrafo {
@@ -96,13 +131,17 @@
   padding-top: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-  #logoIndex {
+@media (max-width: 768px) and (min-width: 480px) {
+  .headerIndex__logo {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
   }
-  #menuIndex {
+  .navIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
