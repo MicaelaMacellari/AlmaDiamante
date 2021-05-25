@@ -249,6 +249,49 @@ h5 {
   padding-left: 40px;
 }
 
+.navRopa {
+  background-color: white;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.navRopa__Menu {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.navRopa__Menu__ul {
+  list-style-type: lower-greek;
+  margin: 30;
+  padding: 0%;
+}
+
+.navRopa__Menu__ul__li {
+  color: purple;
+  display: inline-block;
+  width: 18%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.navRopa__Menu__ul__li a {
+  background-color: white;
+  color: purple;
+  text-decoration: none;
+}
+
+.navRopa__Menu__ul__li:hover {
+  background-color: black;
+  color: white;
+}
+
 .sectionRopa {
   background-color: #faf2e2;
 }
