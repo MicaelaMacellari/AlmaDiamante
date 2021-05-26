@@ -7,66 +7,131 @@
     <title>Contacto</title>
     <meta name="description" content="¿Dudas? ¿Consultas? ¿Personalizados? No dudes en contactarte con Nosotros">
     <meta name="keywords"  content="CONTACTO, ATENCION AL CLIENTE, PERSONALIZADOS">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/estilosass.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <a href="index.html" class="aHome"><img src="imagenes/logo.png" alt="Logo" height="100px"/></a>
+<body class="bodyContacto">
+        <header class="headerContacto">
+            <img src="imagenes/ContactoHD.jpg" alt="Contacto" class="headerContacto__ImagenPrincipal"/>
+            <!-- <a href="index.html" class="headerContacto__HomeLogo"><img src="imagenes/logo.png" alt="Logo" height="100px"/></a> -->
 
-        <!-- Versión de títulos sin SEO
-        <h1 class="h1Accesorios">Alma Diamante</h1>
-        <h3 class="h3Accesorios">Contacto</h3>
+            <!-- Versión de títulos sin SEO
+            <h1 class="h1Accesorios">Alma Diamante</h1>
+            <h3 class="h3Accesorios">Contacto</h3>
 
-        Versión de títulos con SEO -->
-        <h1 class="h1Accesorios">Contacto</h1>
+            Versión de títulos con SEO -->
+            <!-- <h1 class="headerContacto__h1">Contacto</h1> -->
+        </header>
 
-        <nav id="navMaquillajeYCosmeticos">
-            <a href="index.html"> Ir a Home</a>
+        <nav class="navContacto">
+            <div class="navContacto__Menu">
+            <ul class="navContacto__Menu__ul">
+                <li class="navContacto__Menu__ul__li"> <a href="index.html"> Home </a> </li>
+                <li class="navContacto__Menu__ul__li"> <a href="ropa.html"> Ropa </a> </li>
+                <li class="navContacto__Menu__ul__li"> <a href="accesorios.html">  Accesorios </a> </li>
+                <li class="navContacto__Menu__ul__li"> <a href="maquillajeYCosmeticos.html"> Maquillajes y Cosméticos </a> </li>
+                <!-- <li class="navContacto__Menu__ul__li"> <a href="contacto.html"> Contacto </a> </li> -->
+            </ul>
+            </div>
         </nav>
 
-    </header>
+        <section class="sectionContacto">
+            <a href="index.html" class="sectionContacto__HomeLogo"><img src="imagenes/logo.png" alt="Logo" height="100px"/></a>
+            <h1 class="sectionContacto__h1">Contacto</h1>
 
-    <form>
-        <p>
-            Nombre <input type="text" placeholder="Nombre"> 
-            Apellido <input type="text" placeholder="Apellido">
-        </p>
-        <p>
-            Mail <input type="email" placeholder="nombre@gmailcom">
-        </p>
-        <p>
-            Teléfono <input type="number" placeholder="1155555555">
-        </p>
-        <p>Sexo:
-            Mujer<input type="Radio" name="Sexo">
-            Hombre<input type="Radio" name="Sexo">
-            Otro<input type="Radio" name="Sexo">
-        </p>
-        <p>
-            <fieldset>
-                <legend> ¿Cómo nos conociste?</legend>
-                <select>
-                    <option value="Instagram">Instagram</option>
-                    <option value="Facebook">Facebook</option>
-                    <option value="Google">Google</option>
-                    <option value="Recomendacion">Recomendación de un amig@</option>
-                    <option value="Otro">Otro</option>
-                </select>  
-            </fieldset>
-        </p>
-        <p>
-            
-        </p>
+            <form class="sectionContacto__Form">
+                <div class="container">
+                    <div class="row">
+                    <div class="col">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+                    </div>
+                    <div class="col">
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+                    </div>
+                    </div>
+                    <br>
 
-        <p>
-            Dejanos tu comentario<textarea> </textarea>
-        </p>
-        <input type= "submit">
-        <input type="reset">
-    
-    </form>
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                    </div>
+                    <br>
 
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Teléfono</label>
+                        <div class="col-sm-10">
+                        <input type="number" class="form-control" id="inputphone3">
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <fieldset class="form-group row">
+                        <legend class="col-form-label col-sm-2 float-sm-left pt-0">¿Cómo nos conociste?</legend>
+                        <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                            Instagram
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                            Google
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                            Recomendación de un amig@
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                            Otro
+                            </label>
+                        </div>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <div class="form-group row">
+                        <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                            Deseas recibir nuestro Newsletter
+                            </label>
+                        </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Dejanos tu Comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <br>
+
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+
+                    
+                </form>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
