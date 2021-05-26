@@ -79,8 +79,10 @@
 
         &__ul{
             list-style-type:lower-greek;
-            margin: 30;
+            margin: 30px;
             padding: 0%;
+            display: flex;
+            justify-content: space-between;
 
             &__li{
                 color:purple;
@@ -97,7 +99,6 @@
                 // }
 
                 a{
-                    background-color: white;
                     color:purple;
                     text-decoration: none;
                 }
@@ -166,6 +167,8 @@ h5{
         margin-left: 0;
         margin-top: 0;
         margin-bottom: 0;
+        flex-direction: column;
+        align-items:center;
     }
 
     #grilla {
@@ -262,8 +265,10 @@ h5{
 
         &__ul{
             list-style-type:lower-greek;
-            margin: 30;
+            margin: 30px;
             padding: 0%;
+            display: flex;
+            justify-content: space-between;
 
             &__li{
                 color:purple;
@@ -273,8 +278,8 @@ h5{
                 position: relative;
                 text-align: center;
 
+
                 a{
-                    background-color: white;
                     color:purple;
                     text-decoration: none;
                 }
@@ -300,7 +305,7 @@ h5{
     }
     
     .headerRopa__h1{
-        padding-left: 100px;
+        padding-left: 0;
         display: flex;
     }
 }
@@ -394,8 +399,10 @@ h5{
 
         &__ul{
             list-style-type:lower-greek;
-            margin: 30;
+            margin: 30px;
             padding: 0%;
+            display: flex;
+            justify-content: space-between;
 
             &__li{
                 color:purple;
@@ -406,7 +413,6 @@ h5{
                 text-align: center;
 
                 a{
-                    background-color: white;
                     color:purple;
                     text-decoration: none;
                 }
@@ -496,8 +502,10 @@ h5{
 
         &__ul{
             list-style-type:lower-greek;
-            margin: 30;
+            margin: 30px;
             padding: 0%;
+            display: flex;
+            justify-content: space-between;
 
             &__li{
                 color:purple;
@@ -507,8 +515,8 @@ h5{
                 position: relative;
                 text-align: center;
 
+
                 a{
-                    background-color: white;
                     color:purple;
                     text-decoration: none;
                 }
@@ -582,8 +590,10 @@ h5{
 
         &__ul{
             list-style-type:lower-greek;
-            margin: 30;
+            margin: 30px;
             padding: 0%;
+            display: flex;
+            justify-content: space-between;
 
             &__li{
                 color:purple;
@@ -594,7 +604,6 @@ h5{
                 text-align: center;
 
                 a{
-                    background-color: white;
                     color:purple;
                     text-decoration: none;
                 }

@@ -89,8 +89,14 @@
 
 .navIndex__Menu__ul {
   list-style-type: lower-greek;
-  margin: 30;
+  margin: 30px;
   padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navIndex__Menu__ul__li {
@@ -103,7 +109,6 @@
 }
 
 .navIndex__Menu__ul__li a {
-  background-color: white;
   color: purple;
   text-decoration: none;
 }
@@ -163,6 +168,13 @@ h5 {
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #grilla {
     display: -ms-grid;
@@ -268,8 +280,14 @@ h5 {
 
 .navRopa__Menu__ul {
   list-style-type: lower-greek;
-  margin: 30;
+  margin: 30px;
   padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navRopa__Menu__ul__li {
@@ -282,7 +300,6 @@ h5 {
 }
 
 .navRopa__Menu__ul__li a {
-  background-color: white;
   color: purple;
   text-decoration: none;
 }
@@ -304,7 +321,7 @@ h5 {
     display: flex;
   }
   .headerRopa__h1 {
-    padding-left: 100px;
+    padding-left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -410,8 +427,14 @@ h5 {
 
 .navAccesorios__Menu__ul {
   list-style-type: lower-greek;
-  margin: 30;
+  margin: 30px;
   padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navAccesorios__Menu__ul__li {
@@ -424,7 +447,6 @@ h5 {
 }
 
 .navAccesorios__Menu__ul__li a {
-  background-color: white;
   color: purple;
   text-decoration: none;
 }
@@ -517,8 +539,14 @@ h5 {
 
 .navMyC__Menu__ul {
   list-style-type: lower-greek;
-  margin: 30;
+  margin: 30px;
   padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navMyC__Menu__ul__li {
@@ -531,7 +559,6 @@ h5 {
 }
 
 .navMyC__Menu__ul__li a {
-  background-color: white;
   color: purple;
   text-decoration: none;
 }
@@ -591,8 +618,14 @@ h5 {
 
 .navContacto__Menu__ul {
   list-style-type: lower-greek;
-  margin: 30;
+  margin: 30px;
   padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navContacto__Menu__ul__li {
@@ -605,7 +638,6 @@ h5 {
 }
 
 .navContacto__Menu__ul__li a {
-  background-color: white;
   color: purple;
   text-decoration: none;
 }
